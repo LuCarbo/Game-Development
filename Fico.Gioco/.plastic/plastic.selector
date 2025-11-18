@@ -1,0 +1,4 @@
+repository "Fico.Gioco/Fico.Gioco@6872785246964@cloud"
+  path "/"
+    br "/main"
+    co "/main"
