@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1590",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "ObpMD_D_Residence_Handrail_Wood_A_top_st",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "ObpMI_D_residence_Wood",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "ObpMD_D_Residence_Handrail_Wood_A_top_st"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "ObpMD_D_Residence_Handrail_Wood_A_top_st.bin",
+      "byteLength" : 11856
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 720
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 720,
+      "byteLength" : 2784
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 3504,
+      "byteLength" : 2784
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 6288,
+      "byteLength" : 3712
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 10000,
+      "byteLength" : 1856
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 360,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ 0, -0.875, -0.1875 ],
+      "max" : [ 1, 1.5, 0.1875 ],
+      "componentType" : 5126,
+      "count" : 232,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 232,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 232,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 232,
+      "type" : "VEC2"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1590",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "ObpMD_Residence_Raybarth_Stairs_F",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "ObpMI_D_residence_A",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "ObpMD_Residence_Raybarth_Stairs_F"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "ObpMD_Residence_Raybarth_Stairs_F.bin",
+      "byteLength" : 94464
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 5568
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 5568,
+      "byteLength" : 22224
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 27792,
+      "byteLength" : 22224
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 50016,
+      "byteLength" : 29632
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 79648,
+      "byteLength" : 14816
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 2784,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -3.10999, -2.745, -4.89999 ],
+      "max" : [ 2.26502, 3.995, 5.10001 ],
+      "componentType" : 5126,
+      "count" : 1852,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 1852,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1852,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1852,
+      "type" : "VEC2"
+    }
+  ]
+}
